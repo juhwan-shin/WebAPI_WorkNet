@@ -5,7 +5,7 @@ import pymysql
 import datetime as dt
 
 def WorkNet_Trainning() :
-    conn = pymysql.connect(host='211.55.39.22', port=43306, user='knu', password='Knu_0987!@#', db='test',
+    conn = pymysql.connect(host='xxx.xx.xx.xx', port=xxxxx, user='xxx', password='xxxxxxxxx', db='test',
                            charset='utf8')
     curs = conn.cursor(pymysql.cursors.DictCursor)
     now_date = dt.datetime.now()
@@ -58,7 +58,7 @@ def WorkNet_Trainning() :
 
 
 def insertDB(self):
-    conn = pymysql.connect(host='211.55.39.22', port=43306, user='knu', password='Knu_0987!@#', db='test',
+    conn = pymysql.connect(host='xxx.xx.xx.xx', port=xxxxx, user='xxx', password='xxxxxxxxx', db='test',
                            charset='utf8')
     curs = conn.cursor(pymysql.cursors.DictCursor)
 

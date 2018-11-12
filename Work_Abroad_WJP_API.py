@@ -14,7 +14,7 @@ def Work_Abroad_WJP() :
     # Load XML and for Check base data 데이터 개수 파악하기 위함.
     tree = etree.parse("http://www.worldjob.or.kr/openapi/openapi.do?dobType=1")
     root = tree.getroot()
-    conn = pymysql.connect(host='211.55.39.22', port=43306, user='knu', password='Knu_0987!@#', db='test',
+    conn = pymysql.connect(host='xxx.xx.xx.xx', port=xxxxx, user='xxx', password='xxxxxxxxx', db='test',
                            charset='utf8')
     curs = conn.cursor(pymysql.cursors.DictCursor)
     now_date = dt.datetime.now()
